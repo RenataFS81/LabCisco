@@ -38,6 +38,7 @@ sw mo tr                    -> Transforma a porta em TRUNK (passa tudo)
 show vlan brief             -> COMANDO DE TESTE: Mostra as VLANs ativas
 
 
+
 2. NO ROTEADOR (Dividir a porta em sub-interfaces e ligar o OSPF)
 -------------------------------------------------------------------
 int g0/0                    -> Entra na porta física principal

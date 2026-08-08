@@ -1,3 +1,14 @@
+
+
+Laboratório prático desenvolvido para simular uma arquitetura de rede corporativa utilizando o **Cisco Packet Tracer**. O projeto foca em segmentação de redes, segurança perimetral e roteamento dinâmico IP.
+
+## 🛠️ Tecnologias e Protocolos Utilizados
+* **Cisco IOS CLI:** Configuração manual de switches e roteadores.
+* **VLANs (Virtual Local Area Networks):** Segmentação lógica das redes corporativas (VLAN 10 e VLAN 20).
+* **IEEE 802.1Q (Trunking):** Configuração de porta Trunk para transporte multitáfego de dados.
+* **OSPFv2 (Open Shortest Path First):** Ativação do protocolo de roteamento dinâmico utilizando máscaras curinga (*wildcard masks*).
+
+
 ===================================================================
 MEU GUIA RÁPIDO DE COMANDOS CISCO (ROUTER-ON-A-STICK & OSPF)
 ===================================================================

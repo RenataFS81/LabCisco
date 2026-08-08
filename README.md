@@ -28,20 +28,29 @@ name Nome                   -> Dá nome para a VLAN
 int fa0/1                   -> Entra na porta do computador 1
 
 sw mo ac                    -> Define a porta como modo acesso
+
 sw ac vl 10                 -> Associa a porta à VLAN 10
+
 int g0/1                    -> Entra na porta que vai para o roteador
+
 sw mo tr                    -> Transforma a porta em TRUNK (passa tudo)
+
 show vlan brief             -> COMANDO DE TESTE: Mostra as VLANs ativas
 
 2. NO ROTEADOR (Dividir a porta em sub-interfaces e ligar o OSPF)
 -------------------------------------------------------------------
 int g0/0                    -> Entra na porta física principal
+
 no shut                     -> LIGA a porta física (bolinha fica verde)
+
 int g0/0.10                 -> Cria a sub-interface para a VLAN 10
+
 encapsulation dot1Q 10      -> Ativa o protocolo de Tag de VLAN 10
+
 ip address 192.168.10.1 255.255.255.0 -> Define o Gateway da rede
+
 router ospf 1               -> Liga o protocolo de roteamento OSPF
 
-
 network 192.168.10.0 0.0.0.255 area 0 -> Avisa ao OSPF que essa rede existe
+
 show ip route               -> COMANDO DE TESTE: Mostra as IP Tables (Tabela de rotas)

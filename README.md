@@ -10,7 +10,7 @@ Laboratório prático desenvolvido para simular uma arquitetura de rede corporat
 
 
 ===================================================================
-MEU GUIA RÁPIDO DE COMANDOS CISCO (ROUTER-ON-A-STICK & OSPF)
+    MEU GUIA RÁPIDO DE COMANDOS CISCO (ROUTER-ON-A-STICK & OSPF)
 ===================================================================
 
 1. NO SWITCH (Criar VLANs e definir acessos)

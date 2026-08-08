@@ -11,6 +11,7 @@ Laboratório prático desenvolvido para simular uma arquitetura de rede corporat
 =================================================================== 
 
 
+  
   MEU GUIA RÁPIDO DE COMANDOS CISCO    (ROUTER-ON-A-STICK & OSPF) 
 
 

@@ -20,9 +20,13 @@ MEU GUIA RÁPIDO DE COMANDOS CISCO    (ROUTER-ON-A-STICK & OSPF)
 1. NO SWITCH (Criar VLANs e definir acessos)
 -------------------------------------------------------------------
 conf t                      -> Entra no modo de configuração
+
 vlan 10                     -> Cria a VLAN 10
+
 name Nome                   -> Dá nome para a VLAN
+
 int fa0/1                   -> Entra na porta do computador 1
+
 sw mo ac                    -> Define a porta como modo acesso
 sw ac vl 10                 -> Associa a porta à VLAN 10
 int g0/1                    -> Entra na porta que vai para o roteador
